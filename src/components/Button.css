@@ -1,0 +1,27 @@
+.header-button,
+.footer-button {
+  color: var(--white);
+  border-radius: 40px;
+  width: 8rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+.header-button {
+  background-color: var(--blue);
+}
+.header-button:hover {
+  background-color: var(--blue-hover);
+  cursor: pointer;
+}
+
+.footer-button {
+  background: var(--secondary-gradient);
+}
+.footer-button:hover {
+  background: var(--pink-hover);
+  cursor: pointer;
+}
