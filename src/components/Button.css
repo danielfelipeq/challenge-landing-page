@@ -1,5 +1,6 @@
 .header-button,
-.footer-button {
+.footer-button,
+.intro-button {
   color: var(--white);
   border-radius: 40px;
   width: 8rem;
@@ -12,6 +13,7 @@
 }
 .header-button {
   background-color: var(--blue);
+  z-index: 1;
 }
 .header-button:hover {
   background-color: var(--blue-hover);
@@ -24,4 +26,32 @@
 .footer-button:hover {
   background: var(--pink-hover);
   cursor: pointer;
+}
+
+.intro-button {
+  display: inline-block;
+  margin: 1rem 0 1rem 0;
+  background: var(--primary-gradient);
+}
+.intro-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    var(--primary-gradient);
+  cursor: pointer;
+}
+
+.course-card__link {
+  text-decoration: none;
+  margin: 1.5rem 0;
+  color: var(--main-orange);
+  font-weight: 700;
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+.course-card__link:hover {
+  color: var(--main-pink);
 }
