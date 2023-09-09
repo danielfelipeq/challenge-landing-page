@@ -16,4 +16,4 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-This section has moved here: [[https://facebook.github.io/create-react-app/docs/deployment](https://landing-page-nu-sooty.vercel.app/)]([https://facebook.github.io/create-react-app/docs/deployment](https://landing-page-nu-sooty.vercel.app/)https://landing-page-nu-sooty.vercel.app/)
+This section has moved here: [https://landing-page-nu-sooty.vercel.app/](https://landing-page-nu-sooty.vercel.app/)
